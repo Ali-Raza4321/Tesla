@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.manbox{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    padding: 1px;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD);
+    background-size: cover;
+    background-position: center;
+}
+.baner{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid;  */
+    padding: 10px 15px;
+    position: fixed;
+    /* top: 0; */
+    box-sizing: border-box;
+}
+.box1{
+    width: 20%;
+    height: 40px;
+    display: inline-block;
+    /* border: 1px solid red; */
+
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+}
+.box2{
+    width:calc(50% - 170px);
+    height: 40px;
+    /* border: 1px solid; */
+    vertical-align: top;
+    margin-left: 170px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.box2 li{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.box3{
+    width:calc(30% - 160px) ;
+    height: 40px;
+    /* border: 1px solid; */
+    vertical-align: top;
+    margin-left: 140px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.box3 li{
+    display: inline-block;
+    margin-left: 10px; 
+}
+.box4{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.box4 h1{
+    font-size: 45px;
+}
+.box4 p{
+    margin-top: 10px;
+}
+.manbox2{
+    width: 100%;
+    height:100px;
+    /* border: 1px solid; */
+    text-align: center;
+    margin-top: 260px;
+}
+.box5{
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+
+}
+.box6{
+    display: inline-block;
+    width: 22%;
+    height: 40px;
+    margin-left: 20px;
+}
+.box5 button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: center;
+}
+.box6 button{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.manbox1{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    padding: 1px;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70);
+    background-size: cover;
+    background-position: center;
+}
+.manbox22{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    padding: 1px;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/ddc135ed-1638-40fb-8ab1-f8045059ecef/bvlatuR/std/4096x2560/Homepage-Model-X-Desktop-LHD);
+    background-size: cover;
+    background-position: center;
+}
+.manbox4{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    padding: 1px;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global?quality=auto-medium&format=auto);
+    background-size: cover;
+    background-position: center;
+}
+.manbox3{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    padding: 1px;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D);
+    background-size: cover;
+    background-position: center;
+}
+.manbox5{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    padding: 1px;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width:1080px) {
+    .box2{
+        display: none;
+    }
+    .box3{
+        display: none;
+    }
+}
+@media screen and (max-width:620px) {
+    .box5{
+        width: 100%;  
+    }
+    .box6{
+        width: 100%;
+        margin-left: 0;
+    }
+}
